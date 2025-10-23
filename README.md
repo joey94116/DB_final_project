@@ -5,7 +5,7 @@
 - install and open docker desktop
 - Clone this repository into `<dir>` and `cd <dir>`
     ```
-    git clone <your_repository>
+    git clone <repository_link>
     ```
     ```
     cd <dir>
