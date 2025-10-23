@@ -16,7 +16,7 @@
     ```
 - Then open `localhost:8000` in your browser and see if you get the welcome message
 
-- Check out error messages by typing
+- Check out error messages by typing:
     ```
     docker compose logs --tail=<lines> main
     ```
