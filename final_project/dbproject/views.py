@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-def hello_view(request):
+def hello(request):
     return render(request, 'index.html', {
         'data': "Everything looks quite fine!",
     })

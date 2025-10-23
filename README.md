@@ -14,9 +14,9 @@
     ```
     docker-compose up -d
     ```
-- Then open `localhost:8000` in your browser.
+- Then open `localhost:8000` in your browser and see if you get the welcome message
 
-- check out error messages
+- Check out error messages by typing
     ```
     docker compose logs --tail=<lines> main
     ```
