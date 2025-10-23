@@ -15,3 +15,8 @@
     docker-compose up -d
     ```
 - Then open `localhost:8000` in your browser.
+
+- check out error messages
+    ```
+    docker compose logs --tail=<lines> main
+    ```
