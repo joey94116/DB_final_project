@@ -20,3 +20,11 @@
     ```
     docker compose logs --tail=<lines> main
     ```
+
+- To update database
+    ```
+    docker compose exec main python3 manage.py makemigrations
+    ```
+    ```
+    docker compose exec main python3 manage.py migrate
+    ```
