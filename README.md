@@ -2,14 +2,14 @@
 
 ## Build Environment 
 
-    - install and open docker desktop
-    - Clone this repository into `<dir>` and `cd <dir>`
-        ```
-        git clone <your_repository>
-        cd <dir>
-        ```
-    - run the docker-compose command
-       ```
-        docker-compose up -d
-       ```
-    - Then open `localhost:8000` in your browser.
+- install and open docker desktop
+- Clone this repository into `<dir>` and `cd <dir>`
+    ```
+    git clone <your_repository>
+    cd <dir>
+    ```
+- run the docker-compose command
+    ```
+    docker-compose up -d
+    ```
+- Then open `localhost:8000` in your browser.
