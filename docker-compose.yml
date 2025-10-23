@@ -1,0 +1,26 @@
+version: '2.4'
+
+services:
+  main:
+    image: joey116/team28:latest  # 或改 build: .
+    command: python3 manage.py runserver 0.0.0.0:8080
+    restart: unless-stopped
+    ports:
+      - "8000:8080"
+    volumes:
+      - ./final_project:/django
+    depends_on:
+      - db
+
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:  
+      POSTGRES_DB: appdb
+      POSTGRES_USER: appuser
+      POSTGRES_PASSWORD: appsecret
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
